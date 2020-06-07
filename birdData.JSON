@@ -1,6 +1,5 @@
-{
    "raptors": {
-      "red-tailed-hawk": {
+      "1": {
          "common": "Red-tailed Hawk",
          "latin": "Buteo jamaicensis",
          "image": "https://nas-national-prod.s3.amazonaws.com/styles/nas_bird_teaser_illustration/s3/sibley_red_tailed_hawk.jpg",
@@ -12,8 +11,8 @@
          "factoid": "In several regions of North America, Red-tailed Hawks are adapting to nesting in cities.",
          "source": "Audubon Society",
          "sourceURL": "https://www.audubon.org/field-guide/bird/red-tailed-hawk"
-      }
-      "coopers-hawk": {
+      },
+      "2": {
          "common": "Cooper's Hawk",
          "latin": "Accipiter cooperii",
          "image": "https://nas-national-prod.s3.amazonaws.com/styles/nas_bird_teaser_illustration/s3/3635_Sibl_9780307957900_art_r1.jpg",
@@ -26,9 +25,9 @@
          "source": "Audubon Society",
          "sourceURL": "https://www.audubon.org/field-guide/bird/coopers-hawk"
       }
-   }
+   },
     "finches": {
-      "american-goldfinch": {
+      "1": {
          "common": "American Goldfinch",
          "latin": "Spinus tristis",
          "image": "https://nas-national-prod.s3.amazonaws.com/styles/nas_bird_teaser_illustration/s3/4995_Sibl_9780307957900_art_r1.jpg",
@@ -40,8 +39,8 @@
          "factoid": "Widespread and very common, although possibly has declined recently in some areas.",
          "source": "Audubon Society",
          "sourceURL": "https://www.audubon.org/field-guide/bird/american-goldfinch"
-      }
-      "evening-grosbeak": {
+      },
+      "2": {
          "common": "Evening Grosbeak",
          "latin": "Coccothraustes vespertinus",
          "image": "https://nas-national-prod.s3.amazonaws.com/styles/nas_bird_teaser_illustration/s3/6409_Sibl_9780307957900_art_r1.jpg",
