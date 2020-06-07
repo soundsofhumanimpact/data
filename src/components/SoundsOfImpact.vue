@@ -33,7 +33,7 @@ created: function () {
      this.msg = 'Sounds of Human Impact'
      },
      getData: function () {
-       axios.get("https://raw.githubusercontent.com/soundsofhumanimpact/app/master/birdData.JSON")
+       axios.get("https://raw.githubusercontent.com/soundsofhumanimpact/app/master/birdData.json")
        .then(function (response) {
        console.log(response)
        
