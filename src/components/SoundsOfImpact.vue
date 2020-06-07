@@ -21,8 +21,16 @@ export default {
       msg: '', 
       birdName1: '', 
       birdImage1: '', 
-      birdSound1: '', 
-      birdData: ''
+      birdSound1: '',
+      birdName2: '', 
+      birdImage2: '', 
+      birdSound2: '', 
+      birdName3: '', 
+      birdImage3: '', 
+      birdSound3: '', 
+      birdName4: '', 
+      birdImage4: '', 
+      birdSound4: '',  
     }
   },
 created: function () {
@@ -30,37 +38,38 @@ created: function () {
     },
   methods: {
      test: function () {
-     this.bird1 = 'https://www.scitecheuropa.eu/wp-content/uploads/2019/09/Colour-bird-e1568033112774.jpg';
+     this.birdImage1 = 'https://www.scitecheuropa.eu/wp-content/uploads/2019/09/Colour-bird-e1568033112774.jpg';
      this.msg = 'Sounds of Human Impact'
      },
      getData: function () {
+     var self = this; 
        axios.get("https://raw.githubusercontent.com/soundsofhumanimpact/app/master/birdData.json")
        .then(function (response) {
-       console.log(response.data[1])
-       //this.birdData = JSON.parse(data.data.data)
-  //         this.birdName1 = response.raptors[1].common
-//           this.birdImage1 = response.raptors[1].image
-//           this.birdSound1 = response.raptors[1].sound1
-//           var audio1 = new Audio(this.birdSound1);
-//           audio1.play();
-//           
-//           this.birdName2 = response.raptors[2].common
-//           this.birdImage2 = response.raptors[2].image
-//           this.birdSound2 = response.raptors[2].sound1
-//           var audio2 = new Audio(this.birdSound2);
-//           audio2.play();
-//           
-//           this.birdName3 = response.finches[1].common
-//           this.birdImage3 = response.finches[1].image
-//           this.birdSound3 = response.finches[1].sound1
-//           var audio3 = new Audio(this.birdSound3);
-//           audio3.play();
-//           
-//           this.birdName4 = response.finches[2].common
-//           this.birdImage4 = response.finches[2].image
-//           this.birdSound4 = response.finches[2].sound1
-//           var audio4 = new Audio(this.birdSound4);
-//           audio4.play();
+       console.log(response.data.raptors.red_tailed_hawk.common)
+       
+          self.birdName1 = response.data.raptors.red_tailed_hawk.common
+          self.birdImage1 = response.data.raptors.red_tailed_hawk.image
+          self.birdSound1 = response.data.raptors.red_tailed_hawk.sound1
+          var audio1 = new Audio(self.birdSound1);
+          audio1.play();
+          
+          self.birdName2 = response.data.raptors.coopers_hawk.common
+          self.birdImage2 = response.data.raptors.coopers_hawk.image
+          self.birdSound2 = response.data.raptors.coopers_hawk.sound1
+          var audio2 = new Audio(self.birdSound2);
+          audio2.play();
+          
+          self.birdName3 = response.data.finches.american_goldfinch.common
+          self.birdImage3 = response.data.finches.american_goldfinch.image
+          self.birdSound3 = response.data.finches.american_goldfinch.sound1
+          var audio3 = new Audio(self.birdSound3);
+          audio3.play();
+          
+          self.birdName4 = response.data.finches.evening_grosbeak.common
+          self.birdImage4 = response.data.finches.evening_grosbeak.image
+          self.birdSound4 = response.data.finches.evening_grosbeak.sound1
+          var audio4 = new Audio(self.birdSound4);
+          audio4.play();
           
        })
        .catch((error) => {
