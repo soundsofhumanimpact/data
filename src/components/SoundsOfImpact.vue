@@ -21,7 +21,8 @@ export default {
       msg: '', 
       birdName1: '', 
       birdImage1: '', 
-      birdSound1: ''
+      birdSound1: '', 
+      birdData: ''
     }
   },
 created: function () {
@@ -35,31 +36,31 @@ created: function () {
      getData: function () {
        axios.get("https://raw.githubusercontent.com/soundsofhumanimpact/app/master/birdData.json")
        .then(function (response) {
-       console.log(response)
-       
-          this.birdName1 = response.raptors[1].common
-          this.birdImage1 = response.raptors[1].image
-          this.birdSound1 = response.raptors[1].sound1
-          var audio1 = new Audio(this.birdSound1);
-          audio1.play();
-          
-          this.birdName2 = response.raptors[2].common
-          this.birdImage2 = response.raptors[2].image
-          this.birdSound2 = response.raptors[2].sound1
-          var audio2 = new Audio(this.birdSound2);
-          audio2.play();
-          
-          this.birdName3 = response.finches[1].common
-          this.birdImage3 = response.finches[1].image
-          this.birdSound3 = response.finches[1].sound1
-          var audio3 = new Audio(this.birdSound3);
-          audio3.play();
-          
-          this.birdName4 = response.finches[2].common
-          this.birdImage4 = response.finches[2].image
-          this.birdSound4 = response.finches[2].sound1
-          var audio4 = new Audio(this.birdSound4);
-          audio4.play();
+       console.log(response.data[1])
+       //this.birdData = JSON.parse(data.data.data)
+  //         this.birdName1 = response.raptors[1].common
+//           this.birdImage1 = response.raptors[1].image
+//           this.birdSound1 = response.raptors[1].sound1
+//           var audio1 = new Audio(this.birdSound1);
+//           audio1.play();
+//           
+//           this.birdName2 = response.raptors[2].common
+//           this.birdImage2 = response.raptors[2].image
+//           this.birdSound2 = response.raptors[2].sound1
+//           var audio2 = new Audio(this.birdSound2);
+//           audio2.play();
+//           
+//           this.birdName3 = response.finches[1].common
+//           this.birdImage3 = response.finches[1].image
+//           this.birdSound3 = response.finches[1].sound1
+//           var audio3 = new Audio(this.birdSound3);
+//           audio3.play();
+//           
+//           this.birdName4 = response.finches[2].common
+//           this.birdImage4 = response.finches[2].image
+//           this.birdSound4 = response.finches[2].sound1
+//           var audio4 = new Audio(this.birdSound4);
+//           audio4.play();
           
        })
        .catch((error) => {
