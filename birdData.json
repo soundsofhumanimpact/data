@@ -11,7 +11,7 @@
          "factoid": "In several regions of North America, Red-tailed Hawks are adapting to nesting in cities.",
          "source": "Audubon Society",
          "sourceURL": "https://www.audubon.org/field-guide/bird/red-tailed-hawk"
-      },
+      }
       "2": {
          "common": "Cooper's Hawk",
          "latin": "Accipiter cooperii",
@@ -25,7 +25,7 @@
          "source": "Audubon Society",
          "sourceURL": "https://www.audubon.org/field-guide/bird/coopers-hawk"
       }
-   },
+   }
     "finches": {
       "1": {
          "common": "American Goldfinch",
@@ -39,7 +39,7 @@
          "factoid": "Widespread and very common, although possibly has declined recently in some areas.",
          "source": "Audubon Society",
          "sourceURL": "https://www.audubon.org/field-guide/bird/american-goldfinch"
-      },
+      }
       "2": {
          "common": "Evening Grosbeak",
          "latin": "Coccothraustes vespertinus",
