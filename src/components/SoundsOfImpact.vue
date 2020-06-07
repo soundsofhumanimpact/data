@@ -16,11 +16,12 @@
       <li><img class="logo" alt="Temporary Logo" src="https://nas-national-prod.s3.amazonaws.com/styles/hero_image/s3/web_groombaltimoreoriole-and-a-male-red-breasted-grosbeak.jpg?itok=mGKiNpgF"></li>
     </ul>
     <button v-on:click="test">test</button>
+    <button v-on:click="getData">prime</button>
   </div>
 </template>
 
 <script>
-
+import axios from 'axios'
 export default {
   name: 'SoundsOfImpact',
   data () {
@@ -36,7 +37,17 @@ created: function () {
      test: function () {
      this.bird1 = 'https://www.scitecheuropa.eu/wp-content/uploads/2019/09/Colour-bird-e1568033112774.jpg';
      this.msg = 'sounds of human impact'
-     }
+     },
+     getData: function () {
+       axios.get("https://github.com/soundsofhumanimpact/app/blob/master/birdData.JSON?raw=true")
+       .then(function (response) {
+       console.log(response)
+       this.msg = response
+       })
+       .catch((error) => {
+       console.log(error)
+       })
+    }
   },
 }
 </script>
