@@ -43,7 +43,7 @@ created: function () {
      },
      getData: function () {
      var self = this; 
-       axios.get("https://raw.githubusercontent.com/soundsofhumanimpact/app/master/birdData.json")
+       axios.get("https://raw.githubusercontent.com/soundsofhumanimpact/data/master/birdData.json")
        .then(function (response) {
        console.log(response.data.raptors.red_tailed_hawk.common)
        
