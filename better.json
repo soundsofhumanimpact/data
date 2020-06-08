@@ -14,17 +14,17 @@
          "https,//www.audubon.org/field-guide/bird/red-tailed-hawk"
       ],
       "coopers_hawk",[
-         "common","Cooper's Hawk",
-         "latin","Accipiter cooperii",
-         "image","https,//nas-national-prod.s3.amazonaws.com/styles/nas_bird_teaser_illustration/s3/3635_Sibl_9780307957900_art_r1.jpg",
-         "sound1","https,//nas-national-prod.s3.amazonaws.com/COOHAW_1.cak-series_NDle.mp3",
-         "sound2","https,//nas-national-prod.s3.amazonaws.com/COOHAW_2.kikcalls_NDle.mp3",
-         "sound3","https,//nas-national-prod.s3.amazonaws.com/COOHAW_3.harshnotesfemale__NDle.mp3",
-         "sound4","https,//nas-national-prod.s3.amazonaws.com/COOHAW_4.squeakywhistlesofjuvenile_ORle.mp3",
-         "sound5","https,//nas-national-prod.s3.amazonaws.com/COOHAW_5.variouscallsofmale_UTkc.mp3",
-         "factoid","Numbers declined in mid-20th century, possibly owing to effects of DDT and other pesticides.",
-         "source","Audubon Society",
-         "sourceURL","https,//www.audubon.org/field-guide/bird/coopers-hawk"
+         "Cooper's Hawk",
+         "Accipiter cooperii",
+         "https,//nas-national-prod.s3.amazonaws.com/styles/nas_bird_teaser_illustration/s3/3635_Sibl_9780307957900_art_r1.jpg",
+         "https,//nas-national-prod.s3.amazonaws.com/COOHAW_1.cak-series_NDle.mp3",
+         "https,//nas-national-prod.s3.amazonaws.com/COOHAW_2.kikcalls_NDle.mp3",
+         "https,//nas-national-prod.s3.amazonaws.com/COOHAW_3.harshnotesfemale__NDle.mp3",
+         "https,//nas-national-prod.s3.amazonaws.com/COOHAW_4.squeakywhistlesofjuvenile_ORle.mp3",
+         "https,//nas-national-prod.s3.amazonaws.com/COOHAW_5.variouscallsofmale_UTkc.mp3",
+         "Numbers declined in mid-20th century, possibly owing to effects of DDT and other pesticides.",
+         "Audubon Society",
+         "https,//www.audubon.org/field-guide/bird/coopers-hawk"
       ], 
 "coopers_hawk",[
          "Cooper's Hawk",
