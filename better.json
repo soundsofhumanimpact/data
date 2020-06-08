@@ -1,5 +1,5 @@
-[
-   "raptors", [
+{
+   "raptors": [
       "red_tailed_hawk", [
          "Red-tailed Hawk",
          "Buteo jamaicensis",
@@ -25,22 +25,9 @@
          "Numbers declined in mid-20th century, possibly owing to effects of DDT and other pesticides.",
          "Audubon Society",
          "https,//www.audubon.org/field-guide/bird/coopers-hawk"
-      ], 
-"coopers_hawk",[
-         "Cooper's Hawk",
-         "Accipiter cooperii",
-         "https,//nas-national-prod.s3.amazonaws.com/styles/nas_bird_teaser_illustration/s3/3635_Sibl_9780307957900_art_r1.jpg",
-         "https,//nas-national-prod.s3.amazonaws.com/COOHAW_1.cak-series_NDle.mp3",
-         "https,//nas-national-prod.s3.amazonaws.com/COOHAW_2.kikcalls_NDle.mp3",
-         "https,//nas-national-prod.s3.amazonaws.com/COOHAW_3.harshnotesfemale__NDle.mp3",
-         "https,//nas-national-prod.s3.amazonaws.com/COOHAW_4.squeakywhistlesofjuvenile_ORle.mp3",
-         "https,//nas-national-prod.s3.amazonaws.com/COOHAW_5.variouscallsofmale_UTkc.mp3",
-         "Numbers declined in mid-20th century, possibly owing to effects of DDT and other pesticides.",
-         "Audubon Society",
-         "https,//www.audubon.org/field-guide/bird/coopers-hawk"
       ]
    ],
-   "finches",[
+   "finches":[
       "american_goldfinch",[
          "American Goldfinch",
          "Spinus tristis",
@@ -68,4 +55,4 @@
          "https,//www.audubon.org/field-guide/bird/evening-grosbeak"
    ]
  ]
-]
+}
