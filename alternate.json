@@ -1,0 +1,58 @@
+{
+   "raptors": [
+      "red_tailed_hawk", [
+         "Red-tailed Hawk",
+         "Buteo jamaicensis",
+         "https://www.allaboutbirds.org/guide/assets/photo/60384771-480px.jpg",
+         "https://www.allaboutbirds.org/guide/assets/sound/506024.mp3",
+         "https://www.allaboutbirds.org/guide/assets/sound/522064.mp3",
+         "https://www.allaboutbirds.org/guide/assets/sound/43192071.mp3",
+         "https://www.allaboutbirds.org/guide/assets/sound/506026.mp3",
+         "https://www.allaboutbirds.org/guide/assets/sound/506031.mp3",
+         "You’re unlikely to see this bird in your backyard (unless yours is a big one).",
+         "Cornell University",
+         "https://www.allaboutbirds.org/guide/Red-tailed_Hawk"
+      ],
+      "coopers_hawk",[
+         "Cooper's Hawk",
+         "Accipiter cooperii",
+         "https://www.allaboutbirds.org/guide/assets/photo/60324921-480px.jpg",
+         "https://www.allaboutbirds.org/guide/assets/sound/522067.mp3",
+         "https://www.allaboutbirds.org/guide/assets/sound/505963.mp3",
+         "",
+         "",
+         "",
+         "If you put out seed for birds in your backyard, there’s a chance you’ll also attract the attention of a Cooper’s Hawk.",
+         "Cornell University",
+         "https://www.allaboutbirds.org/guide/Coopers_Hawk"
+      ]
+   ],
+   "finches":[
+      "american_goldfinch",[
+         "American Goldfinch",
+         "Spinus tristis",
+         "https://www.allaboutbirds.org/guide/assets/photo/124706471-480px.jpg",
+         "https://www.allaboutbirds.org/guide/assets/sound/510278.mp3",
+         "https://www.allaboutbirds.org/guide/assets/sound/510280.mp3",
+         "https://www.allaboutbirds.org/guide/assets/sound/523195.mp3",
+         "https://www.allaboutbirds.org/guide/assets/sound/510272.mp3",
+         "",
+         "To encourage goldfinches into your yard, plant native thistles and other composite plants, as well as native milkweed. ",
+         "Cornell University",
+         "https://www.allaboutbirds.org/guide/American_Goldfinch"
+      ],
+      "evening_grosbeak",[
+         "Evening Grosbeak",
+         "Coccothraustes vespertinus",
+         "https://www.allaboutbirds.org/guide/assets/photo/120746601-480px.jpg",
+         "https://www.allaboutbirds.org/guide/assets/sound/510291.mp3",
+         "https://www.allaboutbirds.org/guide/assets/sound/510290.mp3",
+         "https://www.allaboutbirds.org/guide/assets/sound/510288.mp3",
+         "https://www.allaboutbirds.org/guide/assets/sound/523196.mp3",
+         "https://www.allaboutbirds.org/guide/assets/sound/510283.mp3",
+         "Although they may not visit your backyard every year, Evening Grosbeaks show up irregularly at feeders during the winter.",
+         "Cornell University",
+         "https://www.allaboutbirds.org/guide/Evening_Grosbeak"
+   ]
+ ]
+}
