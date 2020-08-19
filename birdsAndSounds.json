@@ -3,6 +3,7 @@
     "species": "American Robin",
     "sci_name": "Turdus migratorius",
     "taxonomic_sort": 1603,
+    "biome": "woodlands",
     "biome_breeding": "Forest Generalist",
     "biome_winter": "Temperate North America",
     "family": "Turdidae",
@@ -38,12 +39,14 @@
     "sound2_url": "https://nas-national-prod.s3.amazonaws.com/AMEROB_2.songnum2_UTkc.mp3?uuid=5f1b29f3645fa",
     "sound3_url": "https://nas-national-prod.s3.amazonaws.com/AMEROB_3.songampwhinnycall_Utkc.mp3?uuid=5f1b29f3649a5",
     "sound4_url": "https://nas-national-prod.s3.amazonaws.com/AMEROB_4.dawnsongNYle.mp3?uuid=5f1b29f364d49",
-    "sound5_url": "https://nas-national-prod.s3.amazonaws.com/AMEROB_5.whispersongs_AKle.mp3?uuid=5f1b29f3650d0"
+    "sound5_url": "https://nas-national-prod.s3.amazonaws.com/AMEROB_5.whispersongs_AKle.mp3?uuid=5f1b29f3650d0", 
+    "scape": "woodlands",
   },
   {
     "species": "Chipping Sparrow",
     "sci_name": "Spizella passerina",
     "taxonomic_sort": 1829,
+    "biome": "woodlands",
     "biome_breeding": "Forest Generalist",
     "biome_winter": "Temperate North America",
     "family": "Passerellidae",
@@ -79,7 +82,8 @@
     "sound2_url": "https://nas-national-prod.s3.amazonaws.com/CHISPA_2.slow-pulsedsong_NYle_1.mp3?uuid=5f1b4ec7057f6",
     "sound3_url": "https://nas-national-prod.s3.amazonaws.com/CHISPA_3.extremelyfast-pulsedsong_UTkc_1.mp3?uuid=5f1b4ec705c25",
     "sound4_url": "https://nas-national-prod.s3.amazonaws.com/CHISPA_4.rapid-firedawnsongnum1_COle_1.mp3?uuid=5f1b4ec705f7e",
-    "sound5_url": "https://nas-national-prod.s3.amazonaws.com/CHISPA_5.rapid-firedawnsongnum2_NYle_1.mp3?uuid=5f1b4ec70629c"
+    "sound5_url": "https://nas-national-prod.s3.amazonaws.com/CHISPA_5.rapid-firedawnsongnum2_NYle_1.mp3?uuid=5f1b4ec70629c", 
+    "scape": "woodlands",
   },
   {
     "species": "Blue-gray Gnatcatcher",
@@ -120,7 +124,8 @@
     "sound2_url": "https://nas-national-prod.s3.amazonaws.com/BLGRGN_2.callsnum2_UTkc.mp3?uuid=5f1b56691c91a",
     "sound3_url": "https://nas-national-prod.s3.amazonaws.com/BLGRGN_3.callsnum3_UTkc.mp3?uuid=5f1b56691d769",
     "sound4_url": "https://nas-national-prod.s3.amazonaws.com/BLGRGN_4.typicalsong_UTkc.mp3?uuid=5f1b56691e5cc",
-    "sound5_url": "https://nas-national-prod.s3.amazonaws.com/BLGRGN_5.oddsong_OKle.mp3?uuid=5f1b56691f411"
+    "sound5_url": "https://nas-national-prod.s3.amazonaws.com/BLGRGN_5.oddsong_OKle.mp3?uuid=5f1b56691f411", 
+    "scape": "woodlands",
   },
   {
     "species": "Dark-eyed Junco",
@@ -161,7 +166,8 @@
     "sound2_url": "https://nas-national-prod.s3.amazonaws.com/DAEYJU_5.2-partedsongsfollowedbyvariouscalls_UTkc_1.mp3?uuid=5f1b4e0628c90",
     "sound3_url": "https://nas-national-prod.s3.amazonaws.com/DAEYJU_6.odd2-partedbuzzysongs_CAkc_1.mp3?uuid=5f1b4e062910c",
     "sound4_url": "https://nas-national-prod.s3.amazonaws.com/DAEYJU_7.springwarblingsongnum1_NYle_1.mp3?uuid=5f1b4e0629559",
-    "sound5_url": "https://nas-national-prod.s3.amazonaws.com/DAEYJU_8.springwarblingsongnum2_UTkc_1.mp3?uuid=5f1b4e0629ade"
+    "sound5_url": "https://nas-national-prod.s3.amazonaws.com/DAEYJU_8.springwarblingsongnum2_UTkc_1.mp3?uuid=5f1b4e0629ade", 
+    "scape": "woodlands",
   },
   {
     "species": "Red-winged Blackbird",
@@ -202,6 +208,7 @@
     "sound2_url": "https://nas-national-prod.s3.amazonaws.com/REWIBL_14.malechackcallsampburrywhistles_CAkc_1.mp3?uuid=5f1b4f14a2fe1",
     "sound3_url": "https://nas-national-prod.s3.amazonaws.com/REWIBL_2.songsnum2_KYle_1.mp3?uuid=5f1b4f14a36ee",
     "sound4_url": "https://nas-national-prod.s3.amazonaws.com/REWIBL_3.songsnum3_LAle_1.mp3?uuid=5f1b4f14a39ec",
-    "sound5_url": "https://nas-national-prod.s3.amazonaws.com/REWIBL_4.songsandchackcalls_UTkc_1.mp3?uuid=5f1b4f14a3d68"
+    "sound5_url": "https://nas-national-prod.s3.amazonaws.com/REWIBL_4.songsandchackcalls_UTkc_1.mp3?uuid=5f1b4f14a3d68", 
+    "scape": "woodlands",
   }
 ]
