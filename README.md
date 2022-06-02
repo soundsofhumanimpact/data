@@ -1,4 +1,6 @@
 Credits for sounds used in ByrdBot (https://soundsofhumanimpact.github.io/byrdbot)
+
+All sounds are sourced from the Macaulay Library/Cornell Lab of Ornithology (https://www.macaulaylibrary.org/the-internet-bird-collection-the-macaulay-library/)
 <br>
 <table>
     <tr>
